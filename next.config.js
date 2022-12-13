@@ -1,22 +1,13 @@
 /** @type {import('next').NextConfig} */
 const path = require('path')
+const { i18n } = require('./next-i18next.config.js')
 
 const nextConfig = {
   reactStrictMode: true,
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
   },
-  i18n: {
-    /**
-     * Provide the locales you want to support in your application
-     */
-    locales: ["en-US", "es-ES"],
-    /**
-     * This is the default locale you want to be used when visiting
-     * a non-locale prefixed path.
-     */
-    defaultLocale: "en-US",
-  },
+  i18n,
 }
 
 module.exports = nextConfig

@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Link from "next/link";
 import { useRouter } from "next/router";
 
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Home.module.scss'
 import { Footer, Header } from '../components/index'
 // import NewsCard from "../components/NewsCard/NewsCard";
 // import newsContent from '../public/locales/en/lang'

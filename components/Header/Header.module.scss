@@ -1,0 +1,15 @@
+// .header {
+//   color: $primary-color;
+//   font-size: 45px;
+//   // font-size: $font;
+//   // color: var(--color);
+
+// }
+// @use '/styles/variables.scss';
+
+// $primary-color: yellow;
+.header {
+  @include allIn;
+  color: red;
+  color: $primary-color;
+}

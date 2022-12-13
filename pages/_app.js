@@ -1,4 +1,3 @@
-import '../styles/globals.css'
 import { appWithTranslation } from 'next-i18next'
 
 function MyApp({ Component, pageProps }) {

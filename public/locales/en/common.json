@@ -1,5 +1,5 @@
 {
-  "h1": "TITLE",
+  "h1": "Ein einfaches Beispiel",
   "change-locale": "Sprache wechseln zu \"{{changeTo}}\"",
   "to-second-page": "Zur zweiten Seite",
   "error-with-status": "Auf dem Server ist ein Fehler ({{statusCode}}) aufgetreten",
@@ -8,13 +8,51 @@
   "blog": {
     "optimized": {
       "question": "Möchtest du einige Superkräfte entfesseln, um für alle Seiten optimierte Übersetzungen zu haben?",
-      "answer": "Dann schaue dir vielleicht <1>diesen Blogbeitrag</1> an.",
+      "answer": "soy una respuesta",
       "link": "https://locize.com/blog/next-i18next-de/"
     },
     "ssg": {
       "question": "Möchtest du SSG (next export) verwenden?",
-      "answer": "soy una respuesta",
+      "answer": "Dann schaue dir vielleicht <1>diesen Blogbeitrag</1> an.",
       "link": "https://locize.com/blog/next-i18n-statisch/"
     }
-  }
+  },
+  "bubbles": [
+    {
+      "id": 1,
+      "bubble_message": "Participar de un domingo navideño",
+      "path": "/01",
+      "bubble_area_message": "Me gustaría invitarte a la capilla para participar de una reunión navideña especial."
+    },
+    {
+      "id": 2,
+      "bubble_message": "Aprender con los misioneros",
+      "path": "/02",
+      "bubble_area_message": "Me gustaría invitarte a conocer a los misioneros."
+    },
+    {
+      "id": 3,
+      "bubble_message": "Aprender del Libro de Mormón",
+      "path": "/03",
+      "bubble_area_message": "Me gustaría invitarte a leer el Libro de Mormón."
+    },
+    {
+      "id": 4,
+      "bubble_message": "Descubrir el propósito de la Navidad",
+      "path": "/04",
+      "bubble_area_message": "Me gustaría invitarte a aprender más sobre la razón por la que celebramos la Navidad."
+    },
+    {
+      "id": 5,
+      "bubble_message": "Ver y escuchar el devocional navideño",
+      "path": "/05",
+      "bubble_area_message": "Me gustaría invitarte a ver un devocional navideño."
+    },
+    {
+      "id": 6,
+      "bubble_message": "Mirar el video \"El Niño Jesús\"",
+      "path": "/06",
+      "bubble_area_message": "Me gustaría invitarte a mirar el video \"El Niño Jesús\""
+    }
+  ]
 }
